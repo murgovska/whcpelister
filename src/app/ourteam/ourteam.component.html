@@ -1,0 +1,25 @@
+<div class='ourteam'>
+  <h1 class="headline">Our team</h1>
+  <div class='row'>
+    <div *ngFor="let player of players" class='col-md-3 player'>
+      <img src="/assets/images/{{player.image}}.jpg" />
+      <div class="player-info">
+        <p class='player-name'>{{player.nameSurname}}</p>
+        <p class="player-birth">{{player.dateOfBirth}}</p>
+        <p class='player-position'>{{player.position}}</p>
+      </div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='col-md-3'></div>
+    <div *ngFor="let member of otherMembers" class='col-md-3 player'>
+      <img src="/assets/images/{{member.image}}.jpg" />
+      <div class="player-info">
+        <p class='player-name'>{{member.nameSurname}}</p>
+        <p class="player-birth">{{member.dateOfBirth}}</p>
+        <p class='player-position'>{{member.position}}</p>
+      </div>
+    </div>
+    <div class='col-md-3'></div>
+  </div>
+</div>

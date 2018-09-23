@@ -1,0 +1,16 @@
+<div class="row menu">
+  <div class="col-md-3">
+    <span class='club-name'><a routerLink='home'>HC Pelister</a></span>
+  </div>
+  <div class="col-md-9">
+    <span class="col-md-3 menu-item" [ngClass]="{'active': about}" (mouseenter)="about = true" (mouseleave)="about = false">
+      <a routerLink='home'>About Us</a>
+    </span>
+    <span class="col-md-3 menu-item" [ngClass]="{'active': ourTeam}" (mouseenter)="ourTeam = true" (mouseleave)="ourTeam = false">
+      <a routerLink='ourteam'>Our Team</a>
+    </span>
+    <span class="col-md-3 menu-item" [ngClass]="{'active': contact}" (mouseenter)="contact = true" (mouseleave)="contact = false">
+      <a routerLink='contact'>Contact</a>
+    </span>
+  </div>
+</div>

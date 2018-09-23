@@ -1,0 +1,22 @@
+.home-content {
+  padding: 1.5rem;
+
+  h1 {
+    color: #015249;
+    text-transform: uppercase;
+    text-shadow: 1.5px 1.5px 3px #a5a5af;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  img {
+    width: inherit;
+    border-radius: .5rem;
+  }
+
+  .club-description {
+    border: 1px solid rgba(#a5a5af, .15);
+    box-shadow: 2.5px 2.5px 5px #a5a5af;
+    border-radius: .5rem;
+  }
+}

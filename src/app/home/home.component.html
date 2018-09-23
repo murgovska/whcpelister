@@ -1,0 +1,44 @@
+<div class='row home-content'>
+  <div class='col-md-8'>
+    <ngb-carousel *ngIf="images">
+      <ng-template ngbSlide>
+        <img [src]="images[0]" alt="Random first slide">
+        <div class="carousel-caption">
+          <h3>WHC Pelister</h3>
+          <p>Season 2018/2019</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <img [src]="images[1]" alt="Random second slide">
+        <div class="carousel-caption">
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <img [src]="images[2]" alt="Random third slide">
+        <div class="carousel-caption">
+          <h3>Third slide label</h3>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </ng-template>
+    </ngb-carousel>
+  </div>
+  <div class='col-md-4 club-description'>
+      <h1>HC Pelister</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In mollis nunc sed id.
+      </p>
+      <p>
+        Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu.
+        Aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat.
+        Ultrices neque ornare aenean euismod elementum nisi. Mauris augue neque gravida in.
+        Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque.
+      </p>
+      <p>
+        Et netus et malesuada fames ac turpis egestas sed. In hendrerit gravida rutrum quisque non tellus. Eget sit amet tellus cras adipiscing enim. Risus at ultrices mi tempus imperdiet nulla malesuada pellentesque.
+        Massa massa ultricies mi quis hendrerit.
+        Donec massa sapien faucibus et molestie ac feugiat sed.
+      </p>
+  </div>
+</div>
